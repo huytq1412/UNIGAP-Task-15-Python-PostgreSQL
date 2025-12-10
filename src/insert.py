@@ -1,5 +1,5 @@
 import psycopg2
-from config import load_config
+from suppliers.src.config import load_config
 
 def insert_vendor(vendor_name):
     # Bình thường: "INSERT ... VALUES (...)" -> Chạy xong là im lặng, không trả về gì.

@@ -1,5 +1,5 @@
 import psycopg2
-from config import  load_config
+from suppliers.src.config import  load_config
 
 def update_vendor(vendor_id, vendor_name):
     """ Cập nhật tên của một vendor dựa trên ID """

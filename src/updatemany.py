@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import extras
-from config import load_config
+from suppliers.src.config import load_config
 
 
 def bulk_update_vendors(update_data):

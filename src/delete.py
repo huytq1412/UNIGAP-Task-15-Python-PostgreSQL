@@ -1,5 +1,5 @@
 import psycopg2
-from config import load_config
+from suppliers.src.config import load_config
 
 
 def delete_part(part_id):

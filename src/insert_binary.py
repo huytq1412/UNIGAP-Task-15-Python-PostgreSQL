@@ -1,5 +1,5 @@
 import psycopg2
-from config import load_config
+from suppliers.src.config import load_config
 def write_blob(part_id, path_to_file, file_extension):
     """ Insert a BLOB into a table """
     # read database configuration

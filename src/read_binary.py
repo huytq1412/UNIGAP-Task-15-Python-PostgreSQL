@@ -1,5 +1,5 @@
 import psycopg2
-from config import load_config
+from suppliers.src.config import load_config
 
 def read_blob(part_id, path_to_dir):
     """ Read BLOB data from a table """

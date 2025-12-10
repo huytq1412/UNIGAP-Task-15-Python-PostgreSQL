@@ -1,5 +1,5 @@
 import psycopg2
-from config import  load_config
+from suppliers.src.config import  load_config
 
 def get_vendors_one(vendor_id):
     sql = "SELECT vendor_id, vendor_name FROM vendors WHERE vendor_id = %s"

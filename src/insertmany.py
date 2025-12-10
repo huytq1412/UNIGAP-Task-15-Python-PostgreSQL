@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import extras  # Phải import thêm cái này
-from config import load_config
+from suppliers.src.config import load_config
 
 
 def insert_many_vendors(vendor_list):

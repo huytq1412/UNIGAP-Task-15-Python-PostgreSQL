@@ -1,5 +1,5 @@
 import psycopg2
-from config import load_config
+from suppliers.src.config import load_config
 
 
 def add_part(part_name, vendor_list):
